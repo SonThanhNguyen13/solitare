@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("1385285.jpg");
+}
+
+.game {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.main-game {
+    padding-top: 50px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+.cards {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.col {
+    border-radius: 15px;
+    background-color: rgb(250, 246, 246);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 210px;
+    width: 150px;
+    position: relative;
+}
+
+.spider {
+    width: 100px;
+    height: 100px;
+}
