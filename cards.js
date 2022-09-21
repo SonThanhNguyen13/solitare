@@ -182,7 +182,7 @@ for (let i = 0; i < 3; i++) {
 
 addEventToCard()
 
-function checkBiggerByOneWin() {
+function checkWin() {
     console.log("run")
     if (point == cols.length) {
         alert("Victory")
@@ -191,7 +191,7 @@ function checkBiggerByOneWin() {
     }
 }
 
-checkBiggerByOneWin()
+checkWin()
 
 function setPoint() {
     document.getElementById("point").innerHTML = point
